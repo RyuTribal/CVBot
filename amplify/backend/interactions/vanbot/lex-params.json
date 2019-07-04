@@ -1,0 +1,35 @@
+{
+    "resourceName": "vanbot",
+    "botName": "VanBot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Name",
+                    "type": "Name",
+                    "prompt": "I don't recognise that name...",
+                    "required": true,
+                    "customType": true
+                }
+            ],
+            "utterances": [
+                "{Name} age",
+                "old {Name}"
+            ],
+            "intentName": "Age",
+            "newSlotTypes": [
+                {
+                    "slotType": "Name",
+                    "slotTypeDescription": "The name of the person in question",
+                    "slotValues": [
+                        "Ivan",
+                        "Owner"
+                    ]
+                }
+            ]
+        }
+    ],
+    "outputVoice": "Joanna",
+    "sessionTimeout": "5",
+    "coppa": false
+}

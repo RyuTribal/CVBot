@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "cvbot-dev-20190704151200-authRole",
+            "UnauthRoleArn": "arn:aws:iam::686023884246:role/cvbot-dev-20190704151200-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::686023884246:role/cvbot-dev-20190704151200-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "cvbot-dev-20190704151200-deployment",
+            "UnauthRoleName": "cvbot-dev-20190704151200-unauthRole",
+            "StackName": "cvbot-dev-20190704151200",
+            "StackId": "arn:aws:cloudformation:eu-west-1:686023884246:stack/cvbot-dev-20190704151200/4ecc26a0-9e5d-11e9-a770-02c530af27e8"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe6623a52": {}
+            }
+        }
+    }
+}

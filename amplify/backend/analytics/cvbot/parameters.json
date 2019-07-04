@@ -1,0 +1,20 @@
+{
+    "appName": "cvbot",
+    "roleName": "pinpointLambdaRolef6d0116d",
+    "cloudWatchPolicyName": "cloudWatchPolicyf6d0116d",
+    "pinpointPolicyName": "pinpointPolicyf6d0116d",
+    "authPolicyName": "pinpoint_amplify_f6d0116d",
+    "unauthPolicyName": "pinpoint_amplify_f6d0116d",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
