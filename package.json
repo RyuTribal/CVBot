@@ -5,8 +5,15 @@
   "dependencies": {
     "aws-amplify": "^1.1.29",
     "aws-amplify-react": "^2.3.9",
+    "botui": "^0.3.9",
+    "jquery": "^3.4.1",
     "react": "^16.8.6",
+    "react-chat-ui": "^0.3.2",
+    "react-chat-widget": "^2.1.4-1",
     "react-dom": "^16.8.6",
+    "react-native-dialogflow": "^3.2.2",
+    "react-native-gifted-chat": "^0.9.11",
+    "react-native-voice": "^0.3.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -29,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.0"
   }
 }

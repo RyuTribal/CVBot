@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.rcw-widget-container{
+  left: calc(50% - 200px);
+  bottom: unset !important;
+  margin-top: 10% !important;
+}
+
+@media screen and (max-width: 800px){
+  .rcw-widget-container.rcw-opened {
+    left: unset;
+    margin-top: unset !important;
+  }
+}
